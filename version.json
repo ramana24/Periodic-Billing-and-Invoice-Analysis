@@ -1,0 +1,13 @@
+{
+  "application": "isu.in.periodicanalysis1",
+  "version": "9.0.1",
+  "buildNumber": "1",
+  "buildId": "1",
+  "branch": "detached",
+  "revision": "77c32157029a889b1c84bf7a40d018ecb3eaf8d9",
+  "GitURL": "",
+  "buildStatus": "${env.buildStatus}",
+  "translationComplete": "${env.translationComplete}",
+  "cidi": "${env.cidi}",
+  "cfdCM": "${env.cfdCM}"
+}

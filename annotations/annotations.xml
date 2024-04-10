@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+    Copyright (C) 2009-2021 SAP SE or an SAP affiliate company. All rights reserved.
+
+-->
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+	<edmx:Reference Uri="/sap/bc/ui5_ui5/ui2/ushell/resources/sap/ushell/components/factsheet/vocabularies/UI.xml">
+		<edmx:Include Alias="UI" Namespace="com.sap.vocabularies.UI.v1"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="/sap/opu/odata/sap/ISU_IN_PERDC_ALP_SRV/$metadata">
+		<edmx:Include Alias="ISU_IN_PERDC_ALP_SRV" Namespace="ISU_IN_PERDC_ALP_SRV"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="http://docs.oasis-open.org/odata/odata-data-aggregation-ext/v4.0/cs02/vocabularies/Org.OData.Aggregation.V1.xml">
+		<edmx:Include Alias="Aggregation" Namespace="Org.OData.Aggregation.V1"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/vocabularies/Org.OData.Capabilities.V1.xml">
+		<edmx:Include Alias="Capabilities" Namespace="Org.OData.Capabilities.V1"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="https://wiki.scn.sap.com/wiki/download/attachments/448470974/Common.xml?api=v2">
+		<edmx:Include Alias="Common" Namespace="com.sap.vocabularies.Common.v1"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="https://wiki.scn.sap.com/wiki/download/attachments/448470971/Communication.xml?api=v2">
+		<edmx:Include Alias="vCard" Namespace="com.sap.vocabularies.Communication.v1"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/vocabularies/Org.OData.Core.V1.xml">
+		<edmx:Include Alias="Core" Namespace="Org.OData.Core.V1"/>
+	</edmx:Reference>
+	<edmx:Reference Uri="http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/vocabularies/Org.OData.Measures.V1.xml">
+		<edmx:Include Alias="CQP" Namespace="Org.OData.Measures.V1"/>
+	</edmx:Reference>
+	<edmx:DataServices>
+		<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="isu.in.periodicanalysis1.ISU_IN_PERDC_ALP_SRV">
+			<Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilsContrToBeInvcdPrgrs" Qualifier="VisualFilter">
+				<Annotation Term="Common.ValueList">
+					<Record Type="Common.ValueListType">
+						<PropertyValue Property="CollectionPath" String="C_UtilsContrToBeBlldInvcdAnlys"/>
+						<PropertyValue Property="Label" String="Invoicing Progress"/>
+						<PropertyValue Property="SearchSupported" Bool="false"/>
+						<PropertyValue Property="Parameters">
+							<Collection>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesContract"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesContract"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="ScheduledUtilitiesBillingDate"/>
+									<PropertyValue Property="ValueListProperty" String="ScheduledUtilitiesBillingDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesPortion"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesPortion"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="ScheduledMeterReadingDate"/>
+									<PropertyValue Property="ValueListProperty" String="ScheduledMeterReadingDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="BusinessPartner"/>
+									<PropertyValue Property="ValueListProperty" String="BusinessPartner"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="ContractAccount"/>
+									<PropertyValue Property="ValueListProperty" String="ContractAccount"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsBillgBlockReason"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsBillgBlockReason"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsBillgUnblockReason"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsBillgUnblockReason"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="CompanyCode"/>
+									<PropertyValue Property="ValueListProperty" String="CompanyCode"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="Division"/>
+									<PropertyValue Property="ValueListProperty" String="Division"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesInstallation"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesInstallation"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesAccountDetnCode"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesAccountDetnCode"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesAccountClass"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesAccountClass"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="MeterReadingUnit"/>
+									<PropertyValue Property="ValueListProperty" String="MeterReadingUnit"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesMoveInDate"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesMoveInDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesMoveOutDate"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesMoveOutDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesRateCategory"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesRateCategory"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesBillingClass"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesBillingClass"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="AltvContractAcctForCollvBills"/>
+									<PropertyValue Property="ValueListProperty" String="AltvContractAcctForCollvBills"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="CABusinessLockReason"/>
+									<PropertyValue Property="ValueListProperty" String="CABusinessLockReason"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeBlldType"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeBlldType"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeBlldDetsType"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeBlldDetsType"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeInvcdPrgrs"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeInvcdPrgrs"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeInvcdPrgrsSts"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeInvcdPrgrsSts"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsExternalPointOfDelivery"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsExternalPointOfDelivery"/>
+								</Record>								
+							</Collection>
+						</PropertyValue>
+						<PropertyValue Property="PresentationVariantQualifier" String="FilterByInvoicingProgress"/>
+					</Record>
+				</Annotation>
+			</Annotations>
+			<Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilsContrToBeInvcdPrgrsSts" Qualifier="VisualFilter">
+				<Annotation Term="Common.ValueList">
+					<Record Type="Common.ValueListType">
+						<PropertyValue Property="CollectionPath" String="C_UtilsContrToBeBlldInvcdAnlys"/>
+						<PropertyValue Property="Label" String="Invoicing Status"/>
+						<PropertyValue Property="SearchSupported" Bool="false"/>
+						<PropertyValue Property="Parameters">
+							<Collection>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesContract"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesContract"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="ScheduledUtilitiesBillingDate"/>
+									<PropertyValue Property="ValueListProperty" String="ScheduledUtilitiesBillingDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesPortion"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesPortion"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="ScheduledMeterReadingDate"/>
+									<PropertyValue Property="ValueListProperty" String="ScheduledMeterReadingDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="BusinessPartner"/>
+									<PropertyValue Property="ValueListProperty" String="BusinessPartner"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="ContractAccount"/>
+									<PropertyValue Property="ValueListProperty" String="ContractAccount"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsBillgBlockReason"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsBillgBlockReason"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsBillgUnblockReason"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsBillgUnblockReason"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="CompanyCode"/>
+									<PropertyValue Property="ValueListProperty" String="CompanyCode"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="Division"/>
+									<PropertyValue Property="ValueListProperty" String="Division"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesInstallation"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesInstallation"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesAccountDetnCode"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesAccountDetnCode"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesAccountClass"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesAccountClass"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="MeterReadingUnit"/>
+									<PropertyValue Property="ValueListProperty" String="MeterReadingUnit"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesMoveInDate"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesMoveInDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesMoveOutDate"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesMoveOutDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesRateCategory"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesRateCategory"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesBillingClass"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesBillingClass"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="AltvContractAcctForCollvBills"/>
+									<PropertyValue Property="ValueListProperty" String="AltvContractAcctForCollvBills"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="CABusinessLockReason"/>
+									<PropertyValue Property="ValueListProperty" String="CABusinessLockReason"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeBlldType"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeBlldType"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeBlldDetsType"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeBlldDetsType"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeInvcdPrgrs"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeInvcdPrgrs"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeInvcdPrgrsSts"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeInvcdPrgrsSts"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsExternalPointOfDelivery"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsExternalPointOfDelivery"/>
+								</Record>
+							</Collection>
+						</PropertyValue>
+						<PropertyValue Property="PresentationVariantQualifier" String="FilterByInvoicingStatus"/>
+					</Record>
+				</Annotation>
+			</Annotations>
+			<Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilsContrToBeBlldType" Qualifier="VisualFilter">
+				<Annotation Term="Common.ValueList">
+					<Record Type="Common.ValueListType">
+						<PropertyValue Property="CollectionPath" String="C_UtilsContrToBeBlldInvcdAnlys"/>
+						<PropertyValue Property="Label" String="Billing Progress"/>
+						<PropertyValue Property="SearchSupported" Bool="false"/>
+						<PropertyValue Property="Parameters">
+							<Collection>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesContract"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesContract"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="ScheduledUtilitiesBillingDate"/>
+									<PropertyValue Property="ValueListProperty" String="ScheduledUtilitiesBillingDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesPortion"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesPortion"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="ScheduledMeterReadingDate"/>
+									<PropertyValue Property="ValueListProperty" String="ScheduledMeterReadingDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="BusinessPartner"/>
+									<PropertyValue Property="ValueListProperty" String="BusinessPartner"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="ContractAccount"/>
+									<PropertyValue Property="ValueListProperty" String="ContractAccount"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsBillgBlockReason"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsBillgBlockReason"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsBillgUnblockReason"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsBillgUnblockReason"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="CompanyCode"/>
+									<PropertyValue Property="ValueListProperty" String="CompanyCode"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="Division"/>
+									<PropertyValue Property="ValueListProperty" String="Division"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesInstallation"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesInstallation"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesAccountDetnCode"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesAccountDetnCode"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesAccountClass"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesAccountClass"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="MeterReadingUnit"/>
+									<PropertyValue Property="ValueListProperty" String="MeterReadingUnit"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesMoveInDate"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesMoveInDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesMoveOutDate"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesMoveOutDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesRateCategory"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesRateCategory"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesBillingClass"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesBillingClass"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="AltvContractAcctForCollvBills"/>
+									<PropertyValue Property="ValueListProperty" String="AltvContractAcctForCollvBills"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="CABusinessLockReason"/>
+									<PropertyValue Property="ValueListProperty" String="CABusinessLockReason"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeBlldType"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeBlldType"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeBlldDetsType"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeBlldDetsType"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeInvcdPrgrs"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeInvcdPrgrs"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeInvcdPrgrsSts"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeInvcdPrgrsSts"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsExternalPointOfDelivery"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsExternalPointOfDelivery"/>
+								</Record>
+							</Collection>
+						</PropertyValue>
+						<PropertyValue Property="PresentationVariantQualifier" String="FilterByBillingProgress"/>
+					</Record>
+				</Annotation>
+			</Annotations>
+			<Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilsContrToBeBlldDetsType" Qualifier="VisualFilter">
+				<Annotation Term="Common.ValueList">
+					<Record Type="Common.ValueListType">
+						<PropertyValue Property="CollectionPath" String="C_UtilsContrToBeBlldInvcdAnlys"/>
+						<PropertyValue Property="Label" String="Billing Status"/>
+						<PropertyValue Property="SearchSupported" Bool="false"/>
+						<PropertyValue Property="Parameters">
+							<Collection>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesContract"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesContract"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="ScheduledUtilitiesBillingDate"/>
+									<PropertyValue Property="ValueListProperty" String="ScheduledUtilitiesBillingDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesPortion"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesPortion"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="ScheduledMeterReadingDate"/>
+									<PropertyValue Property="ValueListProperty" String="ScheduledMeterReadingDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="BusinessPartner"/>
+									<PropertyValue Property="ValueListProperty" String="BusinessPartner"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="ContractAccount"/>
+									<PropertyValue Property="ValueListProperty" String="ContractAccount"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsBillgBlockReason"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsBillgBlockReason"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsBillgUnblockReason"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsBillgUnblockReason"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="CompanyCode"/>
+									<PropertyValue Property="ValueListProperty" String="CompanyCode"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="Division"/>
+									<PropertyValue Property="ValueListProperty" String="Division"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesInstallation"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesInstallation"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesAccountDetnCode"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesAccountDetnCode"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesAccountClass"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesAccountClass"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="MeterReadingUnit"/>
+									<PropertyValue Property="ValueListProperty" String="MeterReadingUnit"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesMoveInDate"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesMoveInDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesMoveOutDate"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesMoveOutDate"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesRateCategory"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesRateCategory"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilitiesBillingClass"/>
+									<PropertyValue Property="ValueListProperty" String="UtilitiesBillingClass"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="AltvContractAcctForCollvBills"/>
+									<PropertyValue Property="ValueListProperty" String="AltvContractAcctForCollvBills"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="CABusinessLockReason"/>
+									<PropertyValue Property="ValueListProperty" String="CABusinessLockReason"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeBlldType"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeBlldType"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeBlldDetsType"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeBlldDetsType"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeInvcdPrgrs"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeInvcdPrgrs"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsContrToBeInvcdPrgrsSts"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsContrToBeInvcdPrgrsSts"/>
+								</Record>
+								<Record Type="Common.ValueListParameterInOut">
+									<PropertyValue Property="LocalDataProperty" PropertyPath="UtilsExternalPointOfDelivery"/>
+									<PropertyValue Property="ValueListProperty" String="UtilsExternalPointOfDelivery"/>
+								</Record>
+							</Collection>
+						</PropertyValue>
+						<PropertyValue Property="PresentationVariantQualifier" String="FilterByBillingStatus"/>
+					</Record>
+				</Annotation>
+			</Annotations>
+		</Schema>
+	</edmx:DataServices>
+</edmx:Edmx>

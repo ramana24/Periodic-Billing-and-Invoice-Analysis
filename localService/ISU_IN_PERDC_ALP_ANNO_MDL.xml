@@ -1,0 +1,288 @@
+<!--
+
+    Copyright (C) 2009-2021 SAP SE or an SAP affiliate company. All rights reserved.
+
+-->
+<edmx:Edmx
+    xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+    <edmx:Reference Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMON',Version='0001',SAP__Origin='LOCAL')/$value">
+        <edmx:Include Namespace="com.sap.vocabularies.Common.v1" Alias="Common"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_UI',Version='0001',SAP__Origin='LOCAL')/$value">
+        <edmx:Include Namespace="com.sap.vocabularies.UI.v1" Alias="UI"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="../../catalogservice;v=2/Vocabularies(TechnicalName='%2FIWBEP%2FVOC_COMMUNICATION',Version='0001',SAP__Origin='LOCAL')/$value">
+        <edmx:Include Namespace="com.sap.vocabularies.Communication.v1" Alias="Communication"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="../../../sap/isu_in_perdc_alp_srv/$metadata">
+        <edmx:Include Namespace="ISU_IN_PERDC_ALP_SRV" Alias="SAP"/>
+    </edmx:Reference>
+    <edmx:DataServices>
+        <Schema
+            xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="isu_in_perdc_alp_anno_mdl.v1">
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/to_CompanyCode">
+                <Annotation Term="UI.HiddenFilter"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/to_ContractAccountHeader">
+                <Annotation Term="UI.HiddenFilter"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/to_Division">
+                <Annotation Term="UI.HiddenFilter"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/to_MeterReadingPortnSchedVH">
+                <Annotation Term="UI.HiddenFilter"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/to_MeterReadingUnit">
+                <Annotation Term="UI.HiddenFilter"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/to_UtilitiesInstallation">
+                <Annotation Term="UI.HiddenFilter"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/to_UtilitiesPortion">
+                <Annotation Term="UI.HiddenFilter"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/to_UtilitiesRateCategory">
+                <Annotation Term="UI.HiddenFilter"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/to_UtilsBillgBlockReason">
+                <Annotation Term="UI.HiddenFilter"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/to_UtilsBillingClass">
+                <Annotation Term="UI.HiddenFilter"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/to_UtilsContrToBeBlldDetsType">
+                <Annotation Term="UI.HiddenFilter"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/to_UtilsContrToBeBlldType">
+                <Annotation Term="UI.HiddenFilter"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/to_UtilsContrToBeInvcdPrgrs">
+                <Annotation Term="UI.HiddenFilter"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/to_UtilsContrToBeInvcdPrgrsSts">
+                <Annotation Term="UI.HiddenFilter"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilitiesPortionName">
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/ContractAccountName">
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilsBillgBlockReasonName">
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/CompanyCodeName">
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/DivisionName">
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/MeterReadingUnitName">
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilitiesRateCategoryName">
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilitiesBillingClassName">
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilsContrToBeBlldTypeName">
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilsContrToBeBlldDetsTypeName">
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilsContrToBeInvcdPrgrsTxt">
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilsContrToBeInvcdPrgrsStsTxt">
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/ID">
+                <Annotation Term="UI.Hidden"/>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilitiesPortion">
+                <Annotation Term="Common.Text" Path="UtilitiesPortionName">
+                    <Annotation Term="UI.TextArrangement" EnumMember="UI.TextArrangementType/TextFirst"/></Annotation>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/ContractAccount">
+                <Annotation Term="Common.Text" Path="ContractAccountName">
+                    <Annotation Term="UI.TextArrangement" EnumMember="UI.TextArrangementType/TextFirst"/></Annotation>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilsBillgBlockReason">
+                <Annotation Term="Common.Text" Path="UtilsBillgBlockReasonName">
+                    <Annotation Term="UI.TextArrangement" EnumMember="UI.TextArrangementType/TextFirst"/></Annotation>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/CompanyCode">
+                <Annotation Term="Common.Text" Path="CompanyCodeName">
+                    <Annotation Term="UI.TextArrangement" EnumMember="UI.TextArrangementType/TextFirst"/></Annotation>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/Division">
+                <Annotation Term="Common.Text" Path="DivisionName">
+                    <Annotation Term="UI.TextArrangement" EnumMember="UI.TextArrangementType/TextFirst"/></Annotation>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/MeterReadingUnit">
+                <Annotation Term="Common.Text" Path="MeterReadingUnitName">
+                    <Annotation Term="UI.TextArrangement" EnumMember="UI.TextArrangementType/TextFirst"/></Annotation>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilitiesRateCategory">
+                <Annotation Term="Common.Text" Path="UtilitiesRateCategoryName">
+                    <Annotation Term="UI.TextArrangement" EnumMember="UI.TextArrangementType/TextFirst"/></Annotation>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilitiesBillingClass">
+                <Annotation Term="Common.Text" Path="UtilitiesBillingClassName">
+                    <Annotation Term="UI.TextArrangement" EnumMember="UI.TextArrangementType/TextFirst"/></Annotation>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilsContrToBeBlldType">
+                <Annotation Term="Common.Text" Path="UtilsContrToBeBlldTypeName">
+                    <Annotation Term="UI.TextArrangement" EnumMember="UI.TextArrangementType/TextOnly"/></Annotation>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilsContrToBeBlldDetsType">
+                <Annotation Term="Common.Text" Path="UtilsContrToBeBlldDetsTypeName">
+                    <Annotation Term="UI.TextArrangement" EnumMember="UI.TextArrangementType/TextOnly"/></Annotation>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilsContrToBeInvcdPrgrs">
+                <Annotation Term="Common.Text" Path="UtilsContrToBeInvcdPrgrsTxt">
+                    <Annotation Term="UI.TextArrangement" EnumMember="UI.TextArrangementType/TextOnly"/></Annotation>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType/UtilsContrToBeInvcdPrgrsSts">
+                <Annotation Term="Common.Text" Path="UtilsContrToBeInvcdPrgrsStsTxt">
+                    <Annotation Term="UI.TextArrangement" EnumMember="UI.TextArrangementType/TextOnly"/></Annotation>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.C_UtilsContrToBeBlldInvcdAnlysType">
+                <Annotation Term="UI.Chart" Qualifier="default">
+                    <Record Type="UI.ChartDefinitionType">
+                        <PropertyValue Property="Title" String="{@i18n&gt;@contr_to_be_billed_by_progress}"/>
+                        <PropertyValue Property="ChartType" EnumMember="UI.ChartType/Column"/>
+                        <PropertyValue Property="Dimensions">
+                            <Collection>
+                                <PropertyPath>ScheduledUtilitiesBillingDate</PropertyPath>
+                                <PropertyPath>UtilsContrToBeInvcdPrgrs</PropertyPath>
+                            </Collection>
+                        </PropertyValue>
+                        <PropertyValue Property="DimensionAttributes">
+                            <Collection>
+                                <Record Type="UI.ChartDimensionAttributeType">
+                                    <PropertyValue Property="Dimension" PropertyPath="ScheduledUtilitiesBillingDate"/>
+                                    <PropertyValue Property="Role" EnumMember="UI.ChartDimensionRoleType/Category"/>
+                                </Record>
+                                <Record Type="UI.ChartDimensionAttributeType">
+                                    <PropertyValue Property="Dimension" PropertyPath="UtilsContrToBeInvcdPrgrs"/>
+                                    <PropertyValue Property="Role" EnumMember="UI.ChartDimensionRoleType/Series"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                        <PropertyValue Property="Measures">
+                            <Collection>
+                                <PropertyPath>NmbrOfUtilsContrToBeInvoiced</PropertyPath>
+                            </Collection>
+                        </PropertyValue>
+                        <PropertyValue Property="MeasureAttributes">
+                            <Collection>
+                                <Record Type="UI.ChartMeasureAttributeType">
+                                    <PropertyValue Property="Measure" PropertyPath="NmbrOfUtilsContrToBeInvoiced"/>
+                                    <PropertyValue Property="Role" EnumMember="UI.ChartMeasureRoleType/Axis1"/>
+                                    <PropertyValue Property="DataPoint" AnnotationPath="@UI.DataPoint#NmbrOfUtilsContrToBeInvoiced"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+                <Annotation Term="UI.DataPoint" Qualifier="NmbrOfUtilsContrToBeInvoiced">
+                    <Record>
+                        <PropertyValue Property="Value" Path="NmbrOfUtilsContrToBeInvoiced"/>
+                        <PropertyValue Property="Title" String=""/>
+                    </Record>
+                </Annotation>
+                <Annotation Term="UI.HeaderInfo">
+                    <Record>
+                        <PropertyValue Property="TypeName" String="{@i18n&gt;@CONTR_TOBE_BLLDINVCD}"/>
+                        <PropertyValue Property="TypeNamePlural" String="{@i18n&gt;@CONTRS_TOBE_BLLDINVCD}"/>
+                    </Record>
+                </Annotation>
+                <Annotation Term="UI.LineItem" Qualifier="default">
+                    <Collection>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="UtilitiesPortion"/>
+                            <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="ScheduledUtilitiesBillingDate"/>
+                            <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="UtilsContrToBeInvcdPrgrs"/>
+                            <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="UtilsContrToBeInvcdPrgrsSts"/>
+                            <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="NmbrOfUtilsContrToBeInvoiced"/>
+                            <Annotation Term="UI.Importance" EnumMember="UI.ImportanceType/High"/>
+                        </Record>
+                    </Collection>
+                </Annotation>
+                <Annotation Term="UI.PresentationVariant" Qualifier="default">
+                    <Record>
+                        <PropertyValue Property="SortOrder">
+                            <Collection>
+                                <Record Type="Common.SortOrderType">
+                                    <PropertyValue Property="Property" PropertyPath="NmbrOfUtilsContrToBeInvoiced"/>
+                                    <PropertyValue Property="Descending" Bool="true"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                        <PropertyValue Property="Visualizations">
+                            <Collection>
+                                <AnnotationPath>@UI.LineItem#default</AnnotationPath>
+                                <AnnotationPath>@UI.Chart#default</AnnotationPath>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+                <Annotation Term="UI.SelectionFields">
+                    <Collection>
+                        <PropertyPath>UtilitiesPortion</PropertyPath>
+                    </Collection>
+                </Annotation>
+            </Annotations>
+            <Annotations Target="ISU_IN_PERDC_ALP_SRV.I_MeterReadingPortnSchedVHType">
+                <Annotation Term="UI.LineItem">
+                    <Collection>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="UtilitiesPortion"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="UtilitiesPortionName"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="ScheduledUtilitiesBillingDate"/>
+                        </Record>
+                        <Record Type="UI.DataField">
+                            <PropertyValue Property="Value" Path="UtilsPortionScheduleRecordDate"/>
+                        </Record>
+                    </Collection>
+                </Annotation>
+                <Annotation Term="UI.PresentationVariant">
+                    <Record>
+                        <PropertyValue Property="MaxItems" Int="5"/>
+                        <PropertyValue Property="SortOrder">
+                            <Collection>
+                                <Record Type="Common.SortOrderType">
+                                    <PropertyValue Property="Property" PropertyPath="UtilitiesPortion"/>
+                                    <PropertyValue Property="Descending" Bool="false"/>
+                                </Record>
+                                <Record Type="Common.SortOrderType">
+                                    <PropertyValue Property="Property" PropertyPath="ScheduledUtilitiesBillingDate"/>
+                                    <PropertyValue Property="Descending" Bool="true"/>
+                                </Record>
+                            </Collection>
+                        </PropertyValue>
+                    </Record>
+                </Annotation>
+            </Annotations>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

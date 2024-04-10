@@ -1,0 +1,944 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "isu/in/periodicanalysis1/Component.js",
+			"size": 376,
+			"isDebug": true,
+			"required": [
+				"sap/ui/generic/app/AppComponent.js"
+			]
+		},
+		{
+			"name": "Component-h2-preload-dbg.js",
+			"module": "isu/in/periodicanalysis1/Component-h2-preload.js",
+			"size": 3435,
+			"isDebug": true,
+			"merged": true,
+			"required": [
+				"sap/ui/generic/app/AppComponent.js"
+			],
+			"included": [
+				"isu/in/periodicanalysis1/Component.js",
+				"isu/in/periodicanalysis1/manifest.json",
+				"isu/in/periodicanalysis1/changes/flexibility-bundle.json",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ar.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_bg.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ca.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_cs.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_da.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_de.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_el.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_en.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_en_US_sappsd.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_en_US_saptrc.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_es.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_et.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_fi.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_fr.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_hi.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_hr.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_hu.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_it.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_iw.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ja.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_kk.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ko.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_lt.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_lv.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ms.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_nl.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_no.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_pl.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_pt.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ro.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ru.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sh.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sk.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sl.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sv.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_th.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_tr.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_uk.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_vi.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_zh_CN.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_zh_TW.properties",
+				"isu/in/periodicanalysis1/i18n/i18n.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ar.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_bg.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ca.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_cs.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_da.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_de.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_el.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_en.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_en_US_sappsd.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_en_US_saptrc.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_es.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_et.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_fi.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_fr.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_hi.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_hr.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_hu.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_it.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_iw.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ja.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_kk.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ko.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_lt.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_lv.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ms.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_nl.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_no.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_pl.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_pt.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ro.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ru.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_sh.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_sk.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_sl.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_sv.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_th.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_tr.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_uk.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_vi.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_zh_CN.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_zh_TW.properties"
+			]
+		},
+		{
+			"name": "Component-h2-preload.js",
+			"module": "isu/in/periodicanalysis1/Component-h2-preload.js",
+			"size": 3363,
+			"merged": true,
+			"required": [
+				"sap/ui/generic/app/AppComponent.js"
+			],
+			"included": [
+				"isu/in/periodicanalysis1/Component.js",
+				"isu/in/periodicanalysis1/manifest.json",
+				"isu/in/periodicanalysis1/changes/flexibility-bundle.json",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ar.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_bg.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ca.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_cs.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_da.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_de.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_el.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_en.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_en_US_sappsd.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_en_US_saptrc.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_es.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_et.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_fi.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_fr.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_hi.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_hr.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_hu.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_it.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_iw.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ja.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_kk.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ko.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_lt.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_lv.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ms.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_nl.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_no.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_pl.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_pt.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ro.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ru.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sh.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sk.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sl.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sv.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_th.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_tr.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_uk.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_vi.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_zh_CN.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_zh_TW.properties",
+				"isu/in/periodicanalysis1/i18n/i18n.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ar.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_bg.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ca.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_cs.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_da.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_de.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_el.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_en.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_en_US_sappsd.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_en_US_saptrc.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_es.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_et.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_fi.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_fr.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_hi.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_hr.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_hu.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_it.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_iw.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ja.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_kk.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ko.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_lt.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_lv.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ms.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_nl.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_no.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_pl.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_pt.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ro.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ru.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_sh.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_sk.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_sl.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_sv.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_th.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_tr.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_uk.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_vi.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_zh_CN.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_zh_TW.properties"
+			]
+		},
+		{
+			"name": "Component-preload.js",
+			"module": "isu/in/periodicanalysis1/Component-preload.js",
+			"size": 60978,
+			"merged": true,
+			"required": [
+				"sap/ui/generic/app/AppComponent.js"
+			],
+			"included": [
+				"isu/in/periodicanalysis1/Component.js",
+				"isu/in/periodicanalysis1/changes/flexibility-bundle.json",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ar.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_bg.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ca.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_cs.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_da.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_de.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_el.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_en.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_en_US_sappsd.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_en_US_saptrc.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_es.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_et.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_fi.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_fr.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_hi.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_hr.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_hu.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_it.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_iw.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ja.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_kk.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ko.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_lt.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_lv.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ms.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_nl.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_no.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_pl.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_pt.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ro.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ru.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sh.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sk.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sl.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sv.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_th.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_tr.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_uk.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_vi.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_zh_CN.properties",
+				"isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_zh_TW.properties",
+				"isu/in/periodicanalysis1/i18n/i18n.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ar.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_bg.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ca.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_cs.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_da.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_de.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_el.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_en.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_en_US_sappsd.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_en_US_saptrc.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_es.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_et.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_fi.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_fr.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_hi.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_hr.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_hu.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_it.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_iw.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ja.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_kk.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ko.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_lt.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_lv.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ms.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_nl.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_no.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_pl.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_pt.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ro.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_ru.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_sh.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_sk.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_sl.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_sv.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_th.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_tr.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_uk.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_vi.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_zh_CN.properties",
+				"isu/in/periodicanalysis1/i18n/i18n_zh_TW.properties",
+				"isu/in/periodicanalysis1/manifest.json"
+			]
+		},
+		{
+			"name": "Component.js",
+			"module": "isu/in/periodicanalysis1/Component.js",
+			"size": 362,
+			"required": [
+				"sap/ui/generic/app/AppComponent.js"
+			]
+		},
+		{
+			"name": "annotations/annotations.xml",
+			"size": 29869
+		},
+		{
+			"name": "changes/flexibility-bundle.json",
+			"module": "isu/in/periodicanalysis1/changes/flexibility-bundle.json",
+			"size": 29616
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties",
+			"size": 692,
+			"locale": "",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ar.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ar.properties",
+			"size": 720,
+			"locale": "ar",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_bg.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_bg.properties",
+			"size": 807,
+			"locale": "bg",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ca.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ca.properties",
+			"size": 584,
+			"locale": "ca",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_cs.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_cs.properties",
+			"size": 588,
+			"locale": "cs",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_da.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_da.properties",
+			"size": 563,
+			"locale": "da",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_de.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_de.properties",
+			"size": 564,
+			"locale": "de",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_el.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_el.properties",
+			"size": 762,
+			"locale": "el",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_en.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_en.properties",
+			"size": 557,
+			"locale": "en",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_en_US_sappsd.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_en_US_sappsd.properties",
+			"size": 822,
+			"locale": "en_US_sappsd",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_en_US_saptrc.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_en_US_saptrc.properties",
+			"size": 580,
+			"locale": "en_US_saptrc",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_es.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_es.properties",
+			"size": 586,
+			"locale": "es",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_et.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_et.properties",
+			"size": 560,
+			"locale": "et",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_fi.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_fi.properties",
+			"size": 558,
+			"locale": "fi",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_fr.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_fr.properties",
+			"size": 581,
+			"locale": "fr",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_hi.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_hi.properties",
+			"size": 702,
+			"locale": "hi",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_hr.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_hr.properties",
+			"size": 571,
+			"locale": "hr",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_hu.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_hu.properties",
+			"size": 596,
+			"locale": "hu",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_it.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_it.properties",
+			"size": 574,
+			"locale": "it",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_iw.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_iw.properties",
+			"size": 789,
+			"locale": "iw",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ja.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ja.properties",
+			"size": 596,
+			"locale": "ja",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_kk.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_kk.properties",
+			"size": 733,
+			"locale": "kk",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ko.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ko.properties",
+			"size": 589,
+			"locale": "ko",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_lt.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_lt.properties",
+			"size": 602,
+			"locale": "lt",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_lv.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_lv.properties",
+			"size": 613,
+			"locale": "lv",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ms.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ms.properties",
+			"size": 556,
+			"locale": "ms",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_nl.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_nl.properties",
+			"size": 560,
+			"locale": "nl",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_no.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_no.properties",
+			"size": 560,
+			"locale": "no",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_pl.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_pl.properties",
+			"size": 563,
+			"locale": "pl",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_pt.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_pt.properties",
+			"size": 586,
+			"locale": "pt",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ro.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ro.properties",
+			"size": 573,
+			"locale": "ro",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ru.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_ru.properties",
+			"size": 774,
+			"locale": "ru",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sh.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sh.properties",
+			"size": 571,
+			"locale": "sh",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sk.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sk.properties",
+			"size": 575,
+			"locale": "sk",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sl.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sl.properties",
+			"size": 578,
+			"locale": "sl",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sv.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_sv.properties",
+			"size": 564,
+			"locale": "sv",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_th.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_th.properties",
+			"size": 794,
+			"locale": "th",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_tr.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_tr.properties",
+			"size": 558,
+			"locale": "tr",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_uk.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_uk.properties",
+			"size": 768,
+			"locale": "uk",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_vi.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_vi.properties",
+			"size": 627,
+			"locale": "vi",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_zh_CN.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_zh_CN.properties",
+			"size": 578,
+			"locale": "zh_CN",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_zh_TW.properties",
+			"module": "isu/in/periodicanalysis1/i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n_zh_TW.properties",
+			"size": 584,
+			"locale": "zh_TW",
+			"raw": "i18n/AnalyticalListPage/C_UtilsContrToBeBlldInvcdAnlys/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n.properties",
+			"size": 424,
+			"locale": "",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ar.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_ar.properties",
+			"size": 646,
+			"locale": "ar",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_bg.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_bg.properties",
+			"size": 826,
+			"locale": "bg",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ca.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_ca.properties",
+			"size": 347,
+			"locale": "ca",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_cs.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_cs.properties",
+			"size": 358,
+			"locale": "cs",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_da.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_da.properties",
+			"size": 306,
+			"locale": "da",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_de.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_de.properties",
+			"size": 308,
+			"locale": "de",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_el.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_el.properties",
+			"size": 718,
+			"locale": "el",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_en.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_en.properties",
+			"size": 289,
+			"locale": "en",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_en_US_sappsd.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_en_US_sappsd.properties",
+			"size": 904,
+			"locale": "en_US_sappsd",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_en_US_saptrc.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_en_US_saptrc.properties",
+			"size": 358,
+			"locale": "en_US_saptrc",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_es.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_es.properties",
+			"size": 352,
+			"locale": "es",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_et.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_et.properties",
+			"size": 294,
+			"locale": "et",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_fi.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_fi.properties",
+			"size": 291,
+			"locale": "fi",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_fr.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_fr.properties",
+			"size": 338,
+			"locale": "fr",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_hi.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_hi.properties",
+			"size": 598,
+			"locale": "hi",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_hr.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_hr.properties",
+			"size": 318,
+			"locale": "hr",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_hu.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_hu.properties",
+			"size": 374,
+			"locale": "hu",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_it.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_it.properties",
+			"size": 327,
+			"locale": "it",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_iw.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_iw.properties",
+			"size": 784,
+			"locale": "iw",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ja.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_ja.properties",
+			"size": 374,
+			"locale": "ja",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_kk.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_kk.properties",
+			"size": 690,
+			"locale": "kk",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ko.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_ko.properties",
+			"size": 360,
+			"locale": "ko",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_lt.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_lt.properties",
+			"size": 383,
+			"locale": "lt",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_lv.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_lv.properties",
+			"size": 410,
+			"locale": "lv",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ms.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_ms.properties",
+			"size": 286,
+			"locale": "ms",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_nl.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_nl.properties",
+			"size": 298,
+			"locale": "nl",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_no.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_no.properties",
+			"size": 300,
+			"locale": "no",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_pl.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_pl.properties",
+			"size": 303,
+			"locale": "pl",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_pt.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_pt.properties",
+			"size": 347,
+			"locale": "pt",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ro.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_ro.properties",
+			"size": 328,
+			"locale": "ro",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ru.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_ru.properties",
+			"size": 760,
+			"locale": "ru",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_sh.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_sh.properties",
+			"size": 318,
+			"locale": "sh",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_sk.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_sk.properties",
+			"size": 332,
+			"locale": "sk",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_sl.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_sl.properties",
+			"size": 334,
+			"locale": "sl",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_sv.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_sv.properties",
+			"size": 308,
+			"locale": "sv",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_th.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_th.properties",
+			"size": 794,
+			"locale": "th",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_tr.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_tr.properties",
+			"size": 294,
+			"locale": "tr",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_uk.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_uk.properties",
+			"size": 748,
+			"locale": "uk",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_vi.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_vi.properties",
+			"size": 433,
+			"locale": "vi",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_zh_CN.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_zh_CN.properties",
+			"size": 338,
+			"locale": "zh_CN",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_zh_TW.properties",
+			"module": "isu/in/periodicanalysis1/i18n/i18n_zh_TW.properties",
+			"size": 350,
+			"locale": "zh_TW",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "localService/ISU_IN_PERDC_ALP_ANNO_MDL.xml",
+			"size": 18718
+		},
+		{
+			"name": "localService/metadata.xml",
+			"size": 128113
+		},
+		{
+			"name": "localService/mockserver-dbg.js",
+			"size": 3544,
+			"isDebug": true
+		},
+		{
+			"name": "localService/mockserver.js",
+			"size": 1624
+		},
+		{
+			"name": "manifest.json",
+			"module": "isu/in/periodicanalysis1/manifest.json",
+			"size": 3483
+		},
+		{
+			"name": "resources.json",
+			"size": 29129
+		},
+		{
+			"name": "version.json",
+			"size": 354
+		}
+	]
+}
